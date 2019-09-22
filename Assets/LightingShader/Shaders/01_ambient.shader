@@ -27,6 +27,7 @@
 
             fixed4 frag (v2f i) : SV_Target
             {
+                // UnityエディタのEnvironment Lightingを反映
                 return UNITY_LIGHTMODEL_AMBIENT;
             }
             ENDCG
